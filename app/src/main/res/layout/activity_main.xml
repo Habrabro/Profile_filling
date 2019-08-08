@@ -5,16 +5,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <EditText android:id="@+id/first"
+    <EditText android:id="@+id/fieldFirst"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Имя" />
-    <EditText android:id="@+id/last"
+
+    <EditText android:id="@+id/fieldLast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Фамилия" />
+
     <Button android:id="@+id/btnNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="nextActivity"
         android:text="Далее"/>
 </LinearLayout>
